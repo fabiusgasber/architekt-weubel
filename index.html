@@ -8,9 +8,9 @@
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
         <title>Architekturmalerei Weubel</title>
     </head>
-    <body>
+    <body class="bg-dark">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-sm navbar-dark">
                 <div class="container-fluid justify-content-center">
                     <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler flex-row" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,28 @@
             </nav>
         </header>
         <main>
-
+            <div id="home-carousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                
+            </div>
         </main>
     </body>
     <footer>
